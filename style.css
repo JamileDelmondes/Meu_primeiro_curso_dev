@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap')
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     border: 0;
 }
@@ -10,6 +10,34 @@ body{
     background: #252525;
     text-align: center;
     padding: 32px;
+}
+img{
+    border-radius: 50%;
+    border: 5px solid #E6E6FA;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+h1{
+    font-size: 42px;
+    line-height: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #E6E6FA;
+}
+h2{
+    font-size: 24px;
+    line-height: 34px;
+    font-family: "Nunito", sans-serif;
+    margin-top: 10px;
+    opacity: 0.8;
+    color: #E6E6FA;
+}
+h3{
+    max-width: 500px;
+    margin: 25px auto;
+    font-size: 24px;
+    line-height: 34px;
+    color: #E6E6FA;
+    font-family: "Nunito", sans-serif;
 }
 
 header
@@ -22,7 +50,7 @@ header div{
     text-align: center;
 }
 header div a {
-    color:lavenderblush;
+    color:#E6E6FA;
     font-size: 20px;
     line-height: 30px;
     margin: 0 16px;
