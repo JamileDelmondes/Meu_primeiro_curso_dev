@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,22 +9,25 @@
 
 body{
     background: #252525;
-    text-align: center;
-    padding: 32px;
+    text-align:left;
+    margin-left: 50px;
+   
+
 }
-img{
+#box img{
     border-radius: 50%;
     border: 5px solid #E6E6FA;
-    margin-bottom: 32px;
+    margin-bottom: 10px;
     margin-top: 32px;
 }
-h1{
+#box h1{
     font-size: 42px;
     line-height: 40px;
     font-family: "Roboto Condensed", sans-serif;
     color: #E6E6FA;
+
 }
-h2{
+#box h2{
     font-size: 24px;
     line-height: 34px;
     font-family: "Nunito", sans-serif;
@@ -31,9 +35,10 @@ h2{
     opacity: 0.8;
     color: #E6E6FA;
 }
-h3{
+#box h3{
     max-width: 500px;
     margin: 25px auto;
+    margin-left: 0px;
     font-size: 24px;
     line-height: 34px;
     color: #E6E6FA;
@@ -44,7 +49,8 @@ header
 {
     padding: 32px;
     border-bottom: 1px solid #333;
-    background-color: rgba(0, 0,0,0.1)
+    background-color: rgba(0, 0,0,0.1);
+    border-bottom: 2px solid #c840ea;
 }
 header div{
     text-align: center;
@@ -60,4 +66,9 @@ header div a {
 header div a:hover{
 color: #c840ea;
 transition: color 700ms;
+}
+
+#box {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }
