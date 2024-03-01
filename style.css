@@ -70,5 +70,13 @@ transition: color 700ms;
 
 #box {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #E6E6FA;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+
+}
+.texto{
+   min-width: 600px;
 }
