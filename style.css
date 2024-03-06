@@ -26,6 +26,7 @@ body{
     font-family: "Roboto Condensed", sans-serif;
     color: #E6E6FA;
     margin-left: 225px;
+    font-weight: bold;
 
 }
 #box h2{
@@ -56,10 +57,10 @@ header
     background-color: rgba(0, 0,0,0.1);
     border-bottom: 2px solid #c840ea;
 }
-header div{
+.links {
     text-align: center;
 }
-header div a {
+.links a {
     color:#E6E6FA;
     font-size: 20px;
     line-height: 30px;
@@ -67,7 +68,7 @@ header div a {
     text-decoration: none;
     font-family: "Anta", sans-serif;
 }
-header div a:hover{
+.links a:hover{
 color: #c840ea;
 transition: color 700mcs;
 }
