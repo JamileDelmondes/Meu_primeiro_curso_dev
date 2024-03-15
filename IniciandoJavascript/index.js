@@ -17,3 +17,4 @@ if(media >5){
 else {
     console.log("Péssimo, errou rude errou feio!")
 }
+
