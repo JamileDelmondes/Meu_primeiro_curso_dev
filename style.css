@@ -101,3 +101,12 @@ transition: color 700mcs;
     padding-bottom: 8px;
     border-bottom: 3px solid var(--subcor);
 }
+
+
+.cards {
+    max-width: 800px;
+    margin: 20px auto;
+}
+.card{
+    background-color: purple;
+}
