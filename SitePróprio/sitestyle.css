@@ -87,23 +87,27 @@ transition: color 700mcs;
 }
 .texto{
    min-width: 600px;
+   
 }
 #box h4{
     margin-top: 32px;
     margin-bottom: 10px;
     text-decoration:underline;
 }
-#box h6{
+.certificados {
     margin-top: 32px;
     margin-bottom: 10px;
     color:#E6E6FA;
     font-size: 20px;
     text-decoration: none;
+    font-family: "Nunito", sans-serif;
+
 }
-h6:hover{
+.certificados a:hover{
     color: var(--subcor);
     transition: color 700mcs;
     }
+
 #linksFooter {
     padding-top: 40px;
 }
