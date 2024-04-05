@@ -103,6 +103,14 @@ transition: color 700mcs;
     font-family: "Nunito", sans-serif;
 
 }
+.certificados  a{
+    text-decoration: none;
+    color: #E6E6FA;
+    font-size: 20px;
+    font-family: "Anta", sans-serif;
+
+
+}
 .certificados a:hover{
     color: var(--subcor);
     transition: color 700mcs;
@@ -116,5 +124,57 @@ transition: color 700mcs;
     padding-bottom: 8px;
     border-bottom: 3px solid var(--subcor);
 }
+
+.cards {
+    max-width: 800px;
+    margin: 20px auto;
+}
+.card{
+    background-color: var(--subcor);
+    color: #E6E6FA;
+    font-family: "Nunito", sans-serif;
+}
+.card_image img{
+    width: 100%;
+}
+.card_content,.card_info{
+    padding: 18px
+}
+.card_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card_price{
+    background-color: #8a4a88;
+    filter: brightness(100%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.cards{
+    max-width: 800px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.modal_overlay{
+    background-color: rgba(0, 0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.modal{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+
 
 
